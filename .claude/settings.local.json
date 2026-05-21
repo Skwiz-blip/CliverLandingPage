@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"C:\\\\Users\\\\HP\\\\.claude\\\\skills\" 2>&1 | head -50)",
+      "Read(//c/Users/HP/.claude/**)",
+      "Bash(ls \"C:\\\\Users\\\\HP\\\\.claude\\\\\" 2>&1)",
+      "Read(//c/Users/HP/**)",
+      "Bash(gh repo *)",
+      "Bash(git clone *)",
+      "Bash(mkdir -p \"c:/Users/HP/Documents/Cliver-landing-page-main/Cliver-landing-page-main/.claude/skills\")",
+      "Bash(cp -r /tmp/ui-ux-pro-max-skill/.claude/skills/* \"c:/Users/HP/Documents/Cliver-landing-page-main/Cliver-landing-page-main/.claude/skills/\")",
+      "Bash(npx eslint *)",
+      "PowerShell(Get-PSDrive C | Select-Object @{N='Used_GB';E={[math]::Round\\($_.Used/1GB,2\\)}}, @{N='Free_GB';E={[math]::Round\\($_.Free/1GB,2\\)}})"
+    ]
+  }
+}

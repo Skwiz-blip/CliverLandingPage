@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(py --version)",
+      "Bash(rm \"c:/Users/HP/Documents/Cliver-landing-page-main/Cliver-landing-page-main/.claude/skills/ui-ux-pro-max/data\" \"c:/Users/HP/Documents/Cliver-landing-page-main/Cliver-landing-page-main/.claude/skills/ui-ux-pro-max/scripts\")",
+      "Bash(cp -r /tmp/ui-ux-pro-max-skill/src/ui-ux-pro-max/data \"c:/Users/HP/Documents/Cliver-landing-page-main/Cliver-landing-page-main/.claude/skills/ui-ux-pro-max/data\")",
+      "Bash(cp -r /tmp/ui-ux-pro-max-skill/src/ui-ux-pro-max/scripts \"c:/Users/HP/Documents/Cliver-landing-page-main/Cliver-landing-page-main/.claude/skills/ui-ux-pro-max/scripts\")",
+      "Bash(py scripts/search.py \"landing page beauty spa\" --max-results 1)",
+      "Bash(rm -rf /tmp/ui-ux-pro-max-skill 2>&1)",
+      "Bash(claude mcp *)",
+      "PowerShell(claude mcp add magic --scope user --env API_KEY=\"45fa8b16e5a56cad6dd9660be3a435bb14dfed53851f9d366828085153b74319\" -- npx -y \"@21st-dev/magic@latest\" 2>&1)",
+      "PowerShell(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('C:/Users/HP/.claude.json','utf8'\\)\\); console.log\\('JSON OK'\\)\" 2>&1)",
+      "PowerShell(npx --version 2>&1)",
+      "Bash(npx next *)"
+    ],
+    "additionalDirectories": [
+      "\\tmp",
+      "C:\\Users\\HP"
+    ]
+  }
+}
